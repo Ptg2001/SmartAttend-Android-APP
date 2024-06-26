@@ -26,7 +26,7 @@ Automatic Facial Recognition is a competent biometrics technology that is used i
  ## INSTALLATION 
  Use Import from Version Control in Android Studio or Clone repo and open the project in Android Studio.
  ```bash
-git clone git@github.com:Satyajit-350/Smart-Attendance-System.git
+git clone git@github.com:Ptg2001/SmartAttend-Android-APP.git
 ```
 ## SCREENSHOTS
 
