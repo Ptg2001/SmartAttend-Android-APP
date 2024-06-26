@@ -1,0 +1,88 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 34
+    buildToolsVersion "33.0.0"
+    buildFeatures {
+        viewBinding true
+    }
+
+    defaultConfig {
+        applicationId "com.example.smartattendance"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation libs.androidx.appcompat.v141
+    implementation libs.material.v160
+    implementation libs.constraintlayout
+
+    implementation platform(libs.firebase.bom.v3001)
+    implementation libs.com.google.firebase.firebase.auth
+    implementation libs.firebase.database.v2005
+    implementation libs.play.services.auth.v2020
+    implementation libs.firebase.storage.v2001
+
+    //picasso Dependency
+    implementation libs.picasso.v271828
+    //Lottie animation dependency
+    implementation libs.lottie
+
+    //shimmer effect dependency
+    implementation libs.shimmer
+
+    //MLKit dependency
+    implementation libs.face.detection.v1615
+
+    // CameraX core library using the camera2 implementation
+    def camerax_version = "1.2.0-alpha01"
+    // The following line is optional, as the core library is included indirectly by camera-camera2
+    implementation libs.camera.core
+    implementation libs.androidx.camera.camera2
+    // If you want to additionally use the CameraX Lifecycle library
+    implementation libs.androidx.camera.lifecycle
+    // If you want to additionally use the CameraX VideoCapture library
+    implementation libs.androidx.camera.video
+    // If you want to additionally use the CameraX View class
+    implementation libs.androidx.camera.view
+    // If you want to additionally add CameraX ML Kit Vision Integration
+    implementation libs.androidx.camera.mlkit.vision
+    // If you want to additionally use the CameraX Extensions library
+    implementation libs.androidx.camera.extensions
+
+    implementation libs.gson.v290
+
+    //tenserFlow dependency
+    implementation libs.tensorflow.lite
+    implementation libs.tensorflow.lite.gpu
+    implementation libs.tensorflow.lite.support
+
+    //dependency for exel sheet conversion
+    implementation libs.poi
+    implementation libs.poi.ooxml
+
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}

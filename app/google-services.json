@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "731416426016",
+    "firebase_url": "https://smartattend-24b1c-default-rtdb.firebaseio.com",
+    "project_id": "smartattend-24b1c",
+    "storage_bucket": "smartattend-24b1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731416426016:android:4e89fa8446ba58e23c2e45",
+        "android_client_info": {
+          "package_name": "com.example.smartattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731416426016-lhkjb080gsgi3mhngg6r3v0sq4qchll4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartattendance",
+            "certificate_hash": "bcf557e081ed3db7e3ddc36c4f22098395ee0274"
+          }
+        },
+        {
+          "client_id": "731416426016-1img888bakamg93mqveqrdkibn4t1p0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcBeL98L9ASmgeXjc1fwDtcBMOj321HAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731416426016-1img888bakamg93mqveqrdkibn4t1p0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,101 @@
+[versions]
+agp = "8.5.0"
+androidxAppcompat = "1.4.1"
+androidxJunit = "1.1.3"
+appcompatVersion = "1.4.0"
+cameraCore = "1.2.0-alpha01"
+constraintlayout = "2.1.4"
+constraintlayoutVersion = "2.1.3"
+espressoCoreVersion = "3.4.0"
+faceDetection = "16.1.6"
+faceDetectionVersion = "16.1.5"
+firebaseBom = "33.1.1"
+firebaseBomVersion = "29.0.1"
+firebaseDatabase = "21.0.0"
+firebaseDatabaseVersion = "20.0.5"
+firebaseStorage = "21.0.0"
+firebaseStorageVersion = "20.0.1"
+googleFirebaseBom = "30.0.1"
+googleMaterial = "1.6.0"
+googlePlayServicesAuth = "20.2.0"
+googleServices = "4.4.2"
+googleServicesVersion = "4.3.10"
+gson = "2.10.1"
+gsonVersion = "2.9.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.7.0"
+lottie = "5.0.3"
+lottieVersion = "4.0.1"
+material = "1.12.0"
+materialVersion = "1.5.0"
+picasso = "2.8"
+picassoVersion = "2.71828"
+playServicesAuth = "21.2.0"
+playServicesAuthVersion = "19.2.0"
+poi = "4.0.0"
+poiOoxml = "4.0.0"
+shimmer = "0.5.0"
+tensorflowLite = "2.9.0"
+tensorflowLiteGpu = "2.9.0"
+tensorflowLiteSupport = "0.4.0"
+playServices = "12.0.1"
+
+[libraries]
+androidx-appcompat-v140 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-appcompat-v141 = { module = "androidx.appcompat:appcompat", version.ref = "androidxAppcompat" }
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCore" }
+androidx-camera-extensions = { module = "androidx.camera:camera-extensions", version.ref = "cameraCore" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraCore" }
+androidx-camera-mlkit-vision = { module = "androidx.camera:camera-mlkit-vision", version.ref = "cameraCore" }
+androidx-camera-video = { module = "androidx.camera:camera-video", version.ref = "cameraCore" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraCore" }
+androidx-constraintlayout-v213 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraCore" }
+com-google-firebase-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+espresso-core-v340 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+face-detection = { module = "com.google.mlkit:face-detection", version.ref = "faceDetection" }
+face-detection-v1615 = { module = "com.google.mlkit:face-detection", version.ref = "faceDetectionVersion" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-bom-v2901 = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firebase-bom-v3001 = { module = "com.google.firebase:firebase-bom", version.ref = "googleFirebaseBom" }
+firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabase" }
+firebase-database-v2005 = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabaseVersion" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+firebase-storage-v2001 = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorageVersion" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+google-firebase-database = { module = "com.google.firebase:firebase-database" }
+google-firebase-storage = { module = "com.google.firebase:firebase-storage" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+google-services-v4310 = { module = "com.google.gms:google-services", version.ref = "googleServicesVersion" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+gson-v290 = { module = "com.google.code.gson:gson", version.ref = "gsonVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+junit-v113 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+lottie-v401 = { module = "com.airbnb.android:lottie", version.ref = "lottieVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+material-v150 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+material-v160 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+picasso-v271828 = { module = "com.squareup.picasso:picasso", version.ref = "picassoVersion" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-v1920 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
+play-services-auth-v2020 = { module = "com.google.android.gms:play-services-auth", version.ref = "googlePlayServicesAuth" }
+poi = { module = "org.apache.poi:poi", version.ref = "poi" }
+poi-ooxml = { module = "org.apache.poi:poi-ooxml", version.ref = "poiOoxml" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+tensorflow-lite = { module = "org.tensorflow:tensorflow-lite", version.ref = "tensorflowLite" }
+tensorflow-lite-gpu = { module = "org.tensorflow:tensorflow-lite-gpu", version.ref = "tensorflowLiteGpu" }
+tensorflow-lite-support = { module = "org.tensorflow:tensorflow-lite-support", version.ref = "tensorflowLiteSupport" }
+play-services = { group = "com.google.android.gms", name = "play-services", version.ref = "playServices" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

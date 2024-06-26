@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Delete All"
+        android:id="@+id/delete"/>
+
+    <item android:title="Export Exel"
+        android:id="@+id/export_xl"/>
+
+</menu>
